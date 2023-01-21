@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "26c406580399f40d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba937cf2d7cab424",
+        "type": "leaf",
+        "dimension": 62.13851761846902,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Storage.md",
+            "mode": "source"
+          }
+        },
+        "group": "2542d8439cb48745"
+      },
+      {
+        "id": "c7b0ba1dad02b8b1",
+        "type": "leaf",
+        "dimension": 37.86148238153098,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Storage.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2542d8439cb48745"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b5936ff4ac1951a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f8d9f6960fe1b57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cffbae293e3d6325",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "939d41bfbf12ad88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 518
+  },
+  "right": {
+    "id": "1190750546a602e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d5bb613497db34c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e47e969c2ba54fc8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Storage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ba937cf2d7cab424",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "General.md",
+    "IAM.md"
+  ]
+}
