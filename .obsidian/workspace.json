@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 518
+    "width": 200
   },
   "right": {
     "id": "1190750546a602e8",
@@ -129,13 +129,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cffbae293e3d6325",
+  "active": "228d4e622fc69bc7",
   "lastOpenFiles": [
+    "Migrations.md",
+    "Logging.md",
+    "General.md",
     "IAM.md",
     "Databases.md",
     "VPC.md",
     "Compute.md",
-    "Storage.md",
-    "General.md"
+    "Storage.md"
   ]
 }
