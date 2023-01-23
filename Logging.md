@@ -76,3 +76,26 @@ cloudtrail can send trail logs to a cloudwatch log stream, the event size is lim
 tracks single metric and alert of threshold is breached. Then triggers actions like emails, scaling, or a reboot.
 - threshold options include --> static, anomaly detection, math expression
 - alarm states --> ALARM, OK, INSUFFICIENT_DATA
+- evaluation period --> alert if for example 3 out of 5 latest event cross the treshold
+	- missing data strategies
+		- As missing --> like it never happened
+		- Not Breaching --> log as below threshold
+		- Breaching --> log as exceeding threshold
+		- Ignore --> the state does not change untill number of consecutive events match the eval period
+- actions --> take action when alarm turns on / off
+	- SNS notification in topic --> subscribers can include HTTPS, SQS, lambda, sms email (JSON), mobile push notification
+	- autoscaling --> simple scaling policy
+	- EC2 action --> stop, terminate, reboot, recover
+# EventBridge
+similar to cloudwatch alarms, but uses events an not metrics to trigger actions
+- rules respond to a specific event
+- rules can also run on a schedule (optionally CRON)
+# AWS Config
+track configuration state of resources over time. it can also show resource relationships
+this helps with:
+- security --> identify config changes that might be cause by a breach
+- audit reports --> config snapshot reports
+- troubleshooting --> spot misconfigurations
+- change management --> identify affected resources when making changes
+## configuration recorder
+this is the engine powering `AWS config` 
