@@ -98,4 +98,31 @@ this helps with:
 - troubleshooting --> spot misconfigurations
 - change management --> identify affected resources when making changes
 ## configuration recorder
-this is the engine powering `AWS config` 
+this is the engine powering `AWS config`, it records the configs and tracks them over time
+- only one recorder per region
+- you can tell it what services to track
+## config items
+a configuration item represents one resource that the recorder is tracking. 
+- contains the specific settings (configs) for the resource
+- when it was created
+- ARN
+- resource type
+- relationships to other items
+- persists even after resource deletion
+## config history
+contains the config over time and also API calls using CloudTrail
+- are delivered every 6 hours to a S3 bucket --> this is called the delivery channel
+- history files are grouped by resource type
+## config snapshots
+a snapshot of the config of all resource at a point in time. can be delivered to the delivery channel
+## monitoring changes
+a new configuration item is created every time a resource is created, changed, or deleted
+- retention can be set to 30 days to 7 years
+	- retention time does not affect the S3 delivery channel
+## software inventory
+config can track software on EC2 instances and on prem servers, it utilizes AWS system manager inventory collection
+## configuration evaluation rules
+these rules allow you to compare against a baseline
+- non compliant rules generate a SNS notification
+- rules are evaluated upon creation
+	- after this the interval can be: upon changes, or every 3,6,12,or 24 hours
