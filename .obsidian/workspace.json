@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f230c563c69bbcc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b586610516a3266",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IAM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "228d4e622fc69bc7",
             "type": "leaf",
             "state": {
@@ -42,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b193b4e89f407182",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1190750546a602e8",
@@ -102,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logging.md",
+                "file": "DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -129,10 +118,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "228d4e622fc69bc7",
+  "active": "b193b4e89f407182",
   "lastOpenFiles": [
-    "Migrations.md",
     "Logging.md",
+    "Migrations.md",
     "General.md",
     "IAM.md",
     "Databases.md",
