@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "50768f4ff0a8ecca",
+        "id": "2527ed234c57db29",
         "type": "tabs",
         "children": [
           {
-            "id": "228d4e622fc69bc7",
+            "id": "b6e0b5099b1c44ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b193b4e89f407182",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DNS.md",
+                "file": "Data ingestion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1190750546a602e8",
@@ -91,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DNS.md",
+                "file": "Data ingestion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,8 +104,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b193b4e89f407182",
+  "active": "b6e0b5099b1c44ab",
   "lastOpenFiles": [
+    "DNS.md",
     "Logging.md",
     "Migrations.md",
     "General.md",
