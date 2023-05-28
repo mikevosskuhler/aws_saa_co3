@@ -1,5 +1,13 @@
 - Availability is represented as a percentage of the time that the app is available
 - multiple components that can fail will have to have their availability multiplied to get the overall availability
+# Terminology
+
+|term|description|
+|--|--|
+|high availability||
+|fault tolerance||
+|disaster recovery||
+
 # EC2 autoscaling
 |Type|Description|recommended|modifiable|
 |---|---|---|---|
