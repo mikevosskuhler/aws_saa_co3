@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases.md",
+                "file": "Resilient Architectures.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "efs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases.md",
+                "file": "Resilient Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,13 +115,13 @@
   },
   "active": "a5cec51667b2aa47",
   "lastOpenFiles": [
-    "Logging.md",
+    "Storage.md",
     "Databases.md",
+    "Logging.md",
     "Resilient Architectures.md",
     "High Performance Architecture.md",
     "VPC.md",
     "Compute.md",
-    "Storage.md",
     "Cost control.md",
     "Secure Architectures.md",
     "IAM.md",

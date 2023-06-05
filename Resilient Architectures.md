@@ -41,9 +41,18 @@ available metrics for scaling:
 - versioning
 - region replication --> sync items from bucket in 1 region to bucket in another region
 ## EFS
+AWS's NFS implementation --> NFSv4
+- can be mounted in linux and share between EC2 instances
+- file storage as opposed to EBS (block storage)
+- private service (VPC based)
 - replicates accross AZs
 - backup indiviual files to S3
 - AWS backup service to schedule incremental backups
+- uses mount targets that are injected into the AZs (and get assigned an ip in the subnet)
+- perfomance modes --> general purpose and max IO
+- Throughput modes --> bursting and provisioned
+- storage Classes --> Standard and Infrequent access (IA)
+- 
 ## EBS
 - replaces across AZs
 - snapshots --> in S3, so replicated across AZs
@@ -85,3 +94,12 @@ catch all for messages that cannot be processed
 - MaxReceive --> after reaching this number of retries the message gets send to the dead letter queue
 - has a retention period like every other queue
 - the retention is based on the original creation time, not when it was send to the dead letter queue
+# AWS backup
+fully managed data protection (backup/restore) services --> consolidate the management of backup activity across AWS services
+- backup plans --> configure the frequency of backups
+- backup resources --> what resources will be backed up
+- backup vault --> destination (KMS for encryption)
+	- vault lock --> prevents deletion after 72 hours (lifecycle age out still applies, but cannot be overruled)
+- on-demand --> manual backup
+- PITR --> point in time recovery
+- 
