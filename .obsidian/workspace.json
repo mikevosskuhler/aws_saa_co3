@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "50768f4ff0a8ecca",
+        "id": "47537a76ab7ae67f",
         "type": "tabs",
         "children": [
           {
-            "id": "228d4e622fc69bc7",
+            "id": "a5cec51667b2aa47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secure Architectures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb924a6678b1f06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resilient Architectures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b193b4e89f407182",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "High Performance Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "111bdae3dba4e283",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logging.md",
+                "file": "Databases.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "e14239e30033dfe6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -114,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resilient Architectures.md",
+                "file": "Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,21 +112,21 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cb924a6678b1f06f",
+  "active": "a5cec51667b2aa47",
   "lastOpenFiles": [
+    "Logging.md",
+    "Databases.md",
+    "Resilient Architectures.md",
+    "High Performance Architecture.md",
+    "VPC.md",
+    "Compute.md",
+    "Storage.md",
     "Cost control.md",
     "Secure Architectures.md",
-    "Logging.md",
-    "High Performance Architecture.md",
-    "Compute.md",
     "IAM.md",
     "DNS.md",
-    "Resilient Architectures.md",
     "Data ingestion.md",
     "Migrations.md",
-    "General.md",
-    "Databases.md",
-    "VPC.md",
-    "Storage.md"
+    "General.md"
   ]
 }

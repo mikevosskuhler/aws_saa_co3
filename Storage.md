@@ -14,7 +14,7 @@ this service routes uploads through edge locations to speed up the upload
 ## Encryption
 two kinds of encryption are available server and client side
 ### server side
-- S3 managed keys (SSE-S3) --> server side fully managed by AWS using their enterprise standard keys
+- S3 managed keys (SSE-S3) --> server side fully managed by AWS using their enterprise standard keys (AES-256)
 - KMS managed keys (KMS) --> server side fully managed by AWS (optionally with your own key in KMS). Adds an envelope keys and audit trailing for tracking
 - Customer provided keys (SSE-C) --> the key is offered by the client when accessing / writing objects. The encryption process is then handled by AWS, but the key will be removed after that
 ### client side

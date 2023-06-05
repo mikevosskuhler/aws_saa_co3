@@ -2,6 +2,7 @@
 - async
 - done by creating a replication rule
 - write from one bucket to secondary bucket
+- version has to be enabled
 # S3 transfer accelerator
 - adds a per GB cost for usage
 - routes data through CloudFront edge locations to speed up transfer

@@ -4,9 +4,12 @@
 
 |term|description|
 |--|--|
-|high availability||
-|fault tolerance||
-|disaster recovery||
+|high availability|designed for maximum uptime of the system --> is not operating through failure just that failure (and its impact) is minimized|
+|fault tolerance|designed to deal with failures of one or multiple components and still keep on working as expected --> operating through failure|
+|disaster recovery|policies, tools, and procedures to respond and recover from a disaster|
+
+HA < FT < DR
+High availability optimizes uptime, Fault tolerance operates even if components fail, and Disaster recovery helps recover from stuff like natural disasters.
 
 # EC2 autoscaling
 |Type|Description|recommended|modifiable|

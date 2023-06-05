@@ -4,12 +4,17 @@ available ranges:
 - 192.168.0.0/16
 The primary VPC CIDR block cannot be changed after VPC creation
 - secondary CIDR blocks --> can be specified after VPC creation, but cannot overlap with primary CIDR block
+- max /16 AND min /28
+# Default VPC
+- only 1 per region
+- some services might behave oddly when the default VPC is missing
+- can be recreated --> using the console or CLI or API
 # IPv6
 - AWS provides a /56 range
 - can bring your own in the (/48-\*) range
 # subnets
 - once an instance has been created, it cannot be moved out of the subnet
-- the first four and last IP address are reverved by AWS
+- the first four and last IP address are reserved by AWS
 - ip range cannot be changed after creation
 - subnet may cover the whole VPC CIDR range, but then you can only have 1 subnet
 # Availability zones
@@ -37,6 +42,7 @@ VPC use implied/implicit routers, which you dont manage. You only get to specify
 - Each subnet need to have a route table, if not custom the main route table will be used
 - every route table should have a local route --> traffic within the VPC between subnets
 - the default route (0.0.0.0/0) usually goes to an internet gateway (specified by its resource ID)
+- each subnet can only have one route table associated
 # security groups
 firewall arround a ENI
 - every ENI should have at least one security group (multiple are allowed)

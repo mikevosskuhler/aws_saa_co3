@@ -64,7 +64,7 @@ private IP ranges:
 
 ## security groups
 SCs are host based firewall managed using the AWS management plain
-- deny all by default
+- deny all by default --> you can only configure ALLOW rules
 - statefull
 
 ## autoscaling
